@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Zsolt Bencze — Software engineer</title>
+  <meta name="description" content="Zsolt Bencze — software engineer. iOS apps and full-stack web products. Selected work and contact." />
+  <meta name="color-scheme" content="dark" />
+  <meta property="og:title" content="Zsolt Bencze — Software engineer" />
+  <meta property="og:description" content="iOS apps and full-stack web products. Selected work and contact." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%230a0a0a'/%3E%3Ctext x='2' y='12' fill='%2300ff9d' font-family='monospace' font-size='10'%3E%26gt;_%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <pre class="prompt"><span class="muted">$</span> whoami</pre>
+      <h1>zsolt bencze</h1>
+      <p class="tagline">software engineer<span class="cursor">_</span></p>
+      <p class="bio">
+        I build and ship products end-to-end — iOS apps in SwiftUI and full-stack
+        web products in Next.js. Below are seven things I&rsquo;ve made.
+      </p>
+      <p class="status"><span class="dot"></span> available for hire</p>
+    </header>
+
+    <section aria-labelledby="projects-h">
+      <pre class="prompt"><span class="muted">$</span> ls -la projects/</pre>
+      <h2 id="projects-h" class="sr-only">Projects</h2>
+      <ol class="projects">
+
+        <li class="project">
+          <div class="project-head">
+            <span class="idx">01</span>
+            <h3>Bzap</h3>
+            <span class="kind">ios + backend</span>
+          </div>
+          <p class="desc">
+            Developer-first push notifications and uptime monitoring. Generate a
+            webhook URL, POST to it, get a push on every device. No signup.
+            Heartbeat / dead-man&rsquo;s switch, action buttons, status pages,
+            home-screen widget.
+          </p>
+          <ul class="tech">
+            <li>Swift</li><li>SwiftUI</li><li>Vapor</li><li>SQLite</li><li>APNs</li><li>Fly.io</li>
+          </ul>
+          <ul class="links">
+            <li><a href="REPLACE_BZAP_APPSTORE" data-todo>App Store &rarr;</a></li>
+            <li><a href="REPLACE_BZAP_SITE" data-todo>website &rarr;</a></li>
+          </ul>
+        </li>
+
+        <li class="project">
+          <div class="project-head">
+            <span class="idx">02</span>
+            <h3>Kount</h3>
+            <span class="kind">ios</span>
+          </div>
+          <p class="desc">
+            Event counter and tracker. Create a counter, tap to increment,
+            visualize history with charts. Interactive home-screen widget for
+            one-tap increments without opening the app.
+          </p>
+          <ul class="tech">
+            <li>Swift</li><li>SwiftUI</li><li>WidgetKit</li><li>Swift Charts</li><li>CloudKit</li>
+          </ul>
+          <ul class="links">
+            <li><a href="REPLACE_KOUNT_APPSTORE" data-todo>App Store &rarr;</a></li>
+          </ul>
+        </li>
+
+        <li class="project">
+          <div class="project-head">
+            <span class="idx">03</span>
+            <h3>FoxLab CRM</h3>
+            <span class="kind">web</span>
+          </div>
+          <p class="desc">
+            Customer-relationship management built for small businesses in
+            Romania. Includes integration with Romanian e-invoicing (eFactur&#259;),
+            multi-tenant accounts, and a focused operational UI.
+          </p>
+          <ul class="tech">
+            <li>Next.js</li><li>TypeScript</li><li>Postgres</li><li>Prisma</li><li>Tailwind</li><li>Vercel</li>
+          </ul>
+          <ul class="links">
+            <li><a href="https://foxlabcrm.com" target="_blank" rel="noopener">foxlabcrm.com &rarr;</a></li>
+          </ul>
+        </li>
+
+        <li class="project">
+          <div class="project-head">
+            <span class="idx">04</span>
+            <h3>Hirdet&#337;</h3>
+            <span class="kind">web</span>
+          </div>
+          <p class="desc">
+            Free Hungarian classifieds platform. Diacritic-insensitive search,
+            proximity filtering by radius, hierarchical categories, image
+            uploads, auto-expiry, transactional email. Live in production.
+          </p>
+          <ul class="tech">
+            <li>Next.js 16</li><li>TypeScript</li><li>Postgres (Neon)</li><li>Prisma</li><li>NextAuth</li><li>Cloudflare R2</li><li>Resend</li>
+          </ul>
+          <ul class="links">
+            <li><a href="https://hirdeto.ro" target="_blank" rel="noopener">hirdeto.ro &rarr;</a></li>
+          </ul>
+        </li>
+
+        <li class="project">
+          <div class="project-head">
+            <span class="idx">05</span>
+            <h3>Parking</h3>
+            <span class="kind">ios</span>
+          </div>
+          <p class="desc">
+            iOS app for parking. SwiftUI, focused single-purpose UX.
+          </p>
+          <ul class="tech">
+            <li>Swift</li><li>SwiftUI</li>
+          </ul>
+          <ul class="links">
+            <li><a href="REPLACE_PARKING_LINK" data-todo>App Store / website &rarr;</a></li>
+          </ul>
+        </li>
+
+        <li class="project">
+          <div class="project-head">
+            <span class="idx">06</span>
+            <h3>SoloFamily</h3>
+            <span class="kind">ios</span>
+          </div>
+          <p class="desc">
+            Private time-with-kids log for co-parents. Log periods, generate
+            month/year summaries with split percentages. No shared accounts, no
+            chat &mdash; just a personal record. Face&nbsp;ID lock, iCloud sync,
+            freemium with CSV export.
+          </p>
+          <ul class="tech">
+            <li>Swift</li><li>SwiftUI</li><li>CloudKit</li><li>StoreKit 2</li>
+          </ul>
+          <ul class="links">
+            <li><a href="REPLACE_SOLOFAMILY_APPSTORE" data-todo>App Store &rarr;</a></li>
+            <li><a href="REPLACE_SOLOFAMILY_SITE" data-todo>website &rarr;</a></li>
+          </ul>
+        </li>
+
+        <li class="project">
+          <div class="project-head">
+            <span class="idx">07</span>
+            <h3>TopoWalk</h3>
+            <span class="kind">ios</span>
+          </div>
+          <p class="desc">
+            GPS waypoint walking. Load KMZ, KML, DXF, or GPX files; navigate by
+            audio cues so you can keep your phone in your pocket. Open source
+            (MIT).
+          </p>
+          <ul class="tech">
+            <li>Swift</li><li>SwiftUI</li><li>MapKit</li><li>CoreLocation</li>
+          </ul>
+          <ul class="links">
+            <li><a href="REPLACE_TOPOWALK_APPSTORE" data-todo>App Store &rarr;</a></li>
+            <li><a href="https://github.com/zbencz3/gpxwalk" target="_blank" rel="noopener">source &rarr;</a></li>
+          </ul>
+        </li>
+
+      </ol>
+    </section>
+
+    <section aria-labelledby="stack-h">
+      <pre class="prompt"><span class="muted">$</span> cat stack.txt</pre>
+      <h2 id="stack-h" class="sr-only">Stack</h2>
+      <div class="stack">
+        <div>
+          <h4>iOS</h4>
+          <p>Swift, SwiftUI, WidgetKit, CloudKit, StoreKit 2, MapKit, Swift Charts, XCTest</p>
+        </div>
+        <div>
+          <h4>Web</h4>
+          <p>TypeScript, Next.js, React, Tailwind, Prisma, Postgres, NextAuth, Vercel</p>
+        </div>
+        <div>
+          <h4>Backend / infra</h4>
+          <p>Vapor (Swift), SQLite, Fly.io, APNs, Cloudflare R2, Resend</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <pre class="prompt"><span class="muted">$</span> contact</pre>
+      <ul class="contact">
+        <li><span class="k">email</span><a href="mailto:zbencz3@protonmail.com">zbencz3@protonmail.com</a></li>
+        <li><span class="k">github</span><a href="https://github.com/zbencz3" target="_blank" rel="noopener">github.com/zbencz3</a></li>
+      </ul>
+      <p class="signoff"><span class="muted">$</span> <span class="cursor">_</span></p>
+    </footer>
+  </main>
+  <script>
+    document.querySelectorAll('a[data-todo]').forEach(a => {
+      a.addEventListener('click', e => e.preventDefault());
+      a.setAttribute('aria-disabled', 'true');
+      a.setAttribute('tabindex', '-1');
+    });
+  </script>
+</body>
+</html>
